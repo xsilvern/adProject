@@ -137,4 +137,4 @@ if __name__=="__main__":
     app=QApplication(sys.argv)
     game=MineSweeperGame()
     game.show()
-    sys.exit()
+    sys.exit(app.exec_())
